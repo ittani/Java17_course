@@ -19,6 +19,14 @@ public class Main {
         System.out.println("\n who's your favourite person at home?");
         String name = all.next();
         getName(name);
+
+        System.out.println("\n ......Employee's details ........\n");
+        Employee employee = new Employee("Moddah","004modm",23,69125435L);
+        System.out.println("name: " + employee.getName() +
+                "\nemployee id: " + employee.getEmpployeeId() +
+                "\nemployee age: " + employee.getAge() +
+                "\nemployee cell: " + employee.getCell());
+
     }
 
 
@@ -50,18 +58,20 @@ public class Main {
         {
             case "ittani":
                 System.out.println("Best software engineer");
-
+                 break;
             case "moddah":
                 System.out.println("Best mechanical engineer");
-
+                break;
             case "bafo":
                 System.out.println("Best civil engineer");
-
+                break;
             case "thompho":
                 System.out.println("Best electrical engineer");
-
+                break;
             default:
                 System.out.println("You have no clue :) .......");
         }
+
     }
+
 }
