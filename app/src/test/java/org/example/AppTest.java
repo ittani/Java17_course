@@ -3,6 +3,7 @@
  */
 package org.example;
 
+import org.example.Employee.Main;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

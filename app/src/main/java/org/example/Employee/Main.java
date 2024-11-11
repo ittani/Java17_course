@@ -1,7 +1,7 @@
 /*
  * Basic java lessons
  */
-package org.example;
+package org.example.Employee;
 
 
 import java.util.Scanner;
