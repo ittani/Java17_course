@@ -38,4 +38,4 @@ You'll need the following installed on your system:
 
 1. **Clone the repository**  
    ```bash
-   [git clone https://github.com/yourusername/java-for-dummies.git](https://github.com/ittani/Java17_course.git)
+   [git clone https://github.com/ittani/Java17_course.git)]
