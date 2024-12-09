@@ -1,13 +1,14 @@
 package org.example.Inheritance;
 
 import org.checkerframework.checker.units.qual.A;
+import org.checkerframework.checker.units.qual.Speed;
 
 public class Dog extends Animal {
 
     private String eyeColor;
     private int age;
 
-    public Dog(String eyeColor, int age, String type, int speed, String country)
+    public Dog(String eyeColor, int age, String type, String Speed, String country)
     {
         super("Dog","40m/s","South_Africa");
         this.eyeColor=eyeColor;
