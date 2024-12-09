@@ -13,7 +13,10 @@ public class Dog extends Animal {
         this.eyeColor=eyeColor;
         this.age=age;
     }
-
+public Dog()
+{
+    super("Dog","20m/s","Brazil");
+}
     public String getEyeColor() {
         return eyeColor;
     }
@@ -35,6 +38,6 @@ public class Dog extends Animal {
         return "Dog{" +
                 "eyeColor='" + eyeColor + '\'' +
                 ", age=" + age +
-                '}';
+                '}' + super.toString();
     }
 }

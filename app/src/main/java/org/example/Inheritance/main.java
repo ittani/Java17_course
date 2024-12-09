@@ -6,6 +6,6 @@ public class main {
         Dog dog = new Dog("Brown",2, "PitBull",30,"South_Africa");
 
         System.out.println("The most dangerous dogs in the world :");
-        System.out.println("\n Dog Breed : " + dog.getType() + "\n Country of origin: " + dog.getCountry());
+        System.out.println("\n " + dog.toString());
     }
 }
