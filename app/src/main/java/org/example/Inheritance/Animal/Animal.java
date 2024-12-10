@@ -1,4 +1,4 @@
-package org.example.Inheritance;
+package org.example.Inheritance.Animal;
 
 public class Animal {
     private String type;
@@ -42,5 +42,10 @@ public class Animal {
                 ", speed=" + speed +
                 ", country='" + country + '\'' +
                 '}';
+    }
+
+    public void move(String speed)
+    {
+        System.out.println(speed);
     }
 }

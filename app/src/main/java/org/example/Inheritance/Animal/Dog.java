@@ -1,7 +1,4 @@
-package org.example.Inheritance;
-
-import org.checkerframework.checker.units.qual.A;
-import org.checkerframework.checker.units.qual.Speed;
+package org.example.Inheritance.Animal;
 
 public class Dog extends Animal {
 

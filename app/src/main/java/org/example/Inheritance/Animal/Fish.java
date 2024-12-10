@@ -1,4 +1,4 @@
-package org.example.Inheritance;
+package org.example.Inheritance.Animal;
 
 public class Fish extends Animal {
     private int gills;
@@ -20,9 +20,10 @@ public class Fish extends Animal {
     {
         System.out.println("backfin moving");
     }
-
+  @Override
     public void move(String speed)
     {
         super.setSpeed(speed);
     }
+
 }
