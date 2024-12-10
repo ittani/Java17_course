@@ -20,7 +20,7 @@ public class Fish extends Animal {
     {
         System.out.println("backfin moving");
     }
-
+  @Override
     public void move(String speed)
     {
         super.setSpeed(speed);

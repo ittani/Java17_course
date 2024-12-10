@@ -43,4 +43,9 @@ public class Animal {
                 ", country='" + country + '\'' +
                 '}';
     }
+
+    public void move(String speed)
+    {
+        System.out.println(speed);
+    }
 }
