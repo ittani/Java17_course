@@ -7,6 +7,7 @@ public class MainPerson {
     public static void main(String args[])
     {
         print();
+        Arrays();
     }
 
     public static void printPerson()
@@ -35,13 +36,34 @@ public class MainPerson {
 
        if(!name.equals("ittani"))
        {
-           System.out.println("\nIncorrect Credentials, please try again or reach out to the support team");
+           System.out.println("\n..........Incorrect Credentials, please try again or reach out to the support team..........");
        }
-       else
+       else if(name.equals("ittani") && pass.equals("1234"))
        {
            System.out.println("\nHi " + name + "\nWelcome to the Online System.");
            printPerson();
            printEmployemnet();
        }
+       else
+       {
+           System.out.println("\n...........Incorrect Credentials, please try again or reach out to the support team........");
+       }
+    }
+
+    public static void Arrays()
+    {
+        Scanner val = new Scanner(System.in);
+        String[] places = new String[3];
+        System.out.println("\nPlease Type 3 names of animals you know in south africa");
+        for(int i=0;i<places.length;i++)
+        {
+            places[i] = val.next();
+        }
+
+        System.out.println("\nThe list of animals you typed in:");
+        for (int x=0; x<places.length;x++)
+        {
+            System.out.println(places[x]);
+        }
     }
 }
