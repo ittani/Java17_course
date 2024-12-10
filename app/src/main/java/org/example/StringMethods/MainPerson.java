@@ -52,11 +52,18 @@ public class MainPerson {
 
     public static void Arrays()
     {
-        String[] places = {"pretoria","johannesburg","rosebank","sandton","cape-Town"};
-        System.out.println("\nHere is the List of favourite cities/towns in south africa :");
+        Scanner val = new Scanner(System.in);
+        String[] places = new String[3];
+        System.out.println("\nPlease Type 3 names of animals you know in south africa");
         for(int i=0;i<places.length;i++)
         {
-            System.out.println(places[i]);
+            places[i] = val.next();
+        }
+
+        System.out.println("\nThe list of animals you typed in:");
+        for (int x=0; x<places.length;x++)
+        {
+            System.out.println(places[x]);
         }
     }
 }
