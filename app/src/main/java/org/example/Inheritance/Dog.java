@@ -41,4 +41,14 @@ public Dog()
                 ", age=" + age +
                 '}' + super.toString();
     }
+
+    public void bark()
+    {
+        System.out.println("woof!");
+    }
+
+    public void run()
+    {
+        System.out.println("Run!");
+    }
 }
