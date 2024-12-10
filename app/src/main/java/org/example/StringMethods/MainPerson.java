@@ -7,6 +7,7 @@ public class MainPerson {
     public static void main(String args[])
     {
         print();
+        Arrays();
     }
 
     public static void printPerson()
@@ -35,13 +36,27 @@ public class MainPerson {
 
        if(!name.equals("ittani"))
        {
-           System.out.println("\nIncorrect Credentials, please try again or reach out to the support team");
+           System.out.println("\n..........Incorrect Credentials, please try again or reach out to the support team..........");
        }
-       else
+       else if(name.equals("ittani") && pass.equals("1234"))
        {
            System.out.println("\nHi " + name + "\nWelcome to the Online System.");
            printPerson();
            printEmployemnet();
        }
+       else
+       {
+           System.out.println("\n...........Incorrect Credentials, please try again or reach out to the support team........");
+       }
+    }
+
+    public static void Arrays()
+    {
+        String[] places = {"pretoria","johannesburg","rosebank","sandton","cape-Town"};
+        System.out.println("\nHere is the List of favourite cities/towns in south africa :");
+        for(int i=0;i<places.length;i++)
+        {
+            System.out.println(places[i]);
+        }
     }
 }
