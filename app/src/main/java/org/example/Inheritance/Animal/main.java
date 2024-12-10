@@ -1,4 +1,4 @@
-package org.example.Inheritance;
+package org.example.Inheritance.Animal;
 
 public class main {
     public static void main(String args[])

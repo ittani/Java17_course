@@ -1,4 +1,4 @@
-package org.example.Inheritance;
+package org.example.Inheritance.Animal;
 
 public class Animal {
     private String type;
