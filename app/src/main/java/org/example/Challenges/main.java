@@ -17,16 +17,26 @@ public class main {
         System.out.println( "Employee id:" + hourlyEmployee.getEmployeeId() + "\nName: " +
                 hourlyEmployee.getName() + "\nHireDate: " + hourlyEmployee.getHireDate() + "\nPay Rate Per Hour R" + hourlyEmployee.getHourlypayRate() +
                 "\nBirth-Date: " + hourlyEmployee.getBirthDate());
+
+        /*
+        * Here lies the information about the system manager
+        * name
+        * pay rate per hour
+        * Hire date
+        * employeeId
+        * Birth Date*/
+        print();
     }
 
     public static void print()
     {
         Scanner scanner = new Scanner(System.in);
-        Worker worker = new Worker();
-        String birth,end,name;
+        HourlyEmployee hourlyEmployee = new HourlyEmployee();
 
-        System.out.println("Please enter the following" + "\nYour Name :");
-        name=scanner.next();
+        System.out.println("\nHourly Employee No2");
+        System.out.println( "\nEmployee id:" + hourlyEmployee.getEmployeeId() + "\nName: " +
+                hourlyEmployee.getName() + "\nHireDate: " + hourlyEmployee.getHireDate() + "\nPay Rate Per Hour R" + hourlyEmployee.getHourlypayRate() +
+                "\nBirth-Date: " + hourlyEmployee.getBirthDate());
 
     }
 
