@@ -1,5 +1,7 @@
 package org.example.Challenges;
 
+import java.util.Scanner;
+
 public class main {
     public static void main(String agrs[])
     {
@@ -15,6 +17,17 @@ public class main {
         System.out.println( "Employee id:" + hourlyEmployee.getEmployeeId() + "\nName: " +
                 hourlyEmployee.getName() + "\nHireDate: " + hourlyEmployee.getHireDate() + "\nPay Rate Per Hour R" + hourlyEmployee.getHourlypayRate() +
                 "\nBirth-Date: " + hourlyEmployee.getBirthDate());
+    }
+
+    public static void print()
+    {
+        Scanner scanner = new Scanner(System.in);
+        Worker worker = new Worker();
+        String birth,end,name;
+
+        System.out.println("Please enter the following" + "\nYour Name :");
+        name=scanner.next();
+
     }
 
 }

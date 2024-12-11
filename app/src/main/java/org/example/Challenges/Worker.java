@@ -11,6 +11,8 @@ public class Worker {
         this.birthDate = birthDate;
         this.endDate = endDate;
     }
+    public Worker()
+    {}
 
     public String getName() {
         return name;
