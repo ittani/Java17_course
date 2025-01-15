@@ -11,7 +11,7 @@ public class MinimumElement {
         findMin(readElements(readInteger()));
     }
 
-    public static int readInteger()
+    private static int readInteger()
     {
         System.out.println("How many do you elements do you want to enter?\n");
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class MinimumElement {
         return x;
     }
 
-    public static int[] readElements(int input)
+    private static int[] readElements(int input)
     {
         Scanner scanner = new Scanner(System.in);
         int[] inputUser = new int[input];
@@ -32,7 +32,7 @@ public class MinimumElement {
         return inputUser;
     }
 
-    public static int findMin(int[] mini)
+    private static int findMin(int[] mini)
     {
 
        int minimum = IntStream.of(mini).min().getAsInt();
