@@ -2,18 +2,6 @@
 
 Welcome to **Java for Dummies**! This project is designed to provide a beginner-friendly introduction to Java programming. It’s perfect for anyone looking to understand the basics of Java and dive into hands-on examples and exercises.
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ---
 
 ## About the Project
