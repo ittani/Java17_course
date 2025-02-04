@@ -10,6 +10,7 @@ public class Banks {
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<String> bank = new ArrayList<>();
+
 //        bank.add(0,"ABSA");
 //        bank.add(1,"FNB");
 //        bank.add(2,"CAPITEC");
